@@ -149,6 +149,12 @@
       "minLength": 10,
       "type": "string"
     },
+    "blogUrl":{
+      "description": "URL of the project's blog.",
+      "type": ["string","null"],
+      "format": "uri"
+
+    },
     "pitch": {
       "description": "The project pitch.",
       "type": "string"
